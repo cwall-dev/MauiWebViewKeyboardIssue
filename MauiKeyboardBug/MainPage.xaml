@@ -7,8 +7,10 @@
   <Grid>
     <Grid.RowDefinitions>
       <RowDefinition Height="*"/>
+      <RowDefinition Height="60"/>
     </Grid.RowDefinitions>
     <WebView Grid.Row="0" x:Name="myWebView"/>
+    <Button x:Name="TimerButton" Grid.Row="1" Text="Open new Page in 3 seconds" Clicked="Button_Clicked"/>
   </Grid>
 
 </ContentPage>
